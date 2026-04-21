@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Elie & Caren Wedding Invitation</title>
+
+  <!-- Prevent phone auto-detection -->
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Open Graph (WhatsApp / Facebook preview) -->
+  <meta property="og:title" content="Elie & Caren Wedding Invitation" />
+  <meta property="og:description" content="You are invited to celebrate our special day." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://elieandcaren.github.io/elie-caren-wedding/" />
+  <meta property="og:image" content="https://elieandcaren.github.io/elie-caren-wedding/preview.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter (also used by some apps) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Elie & Caren Wedding Invitation" />
+  <meta name="twitter:description" content="You are invited to celebrate our special day." />
+  <meta name="twitter:image" content="https://elieandcaren.github.io/elie-caren-wedding/preview.png" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-video-wrap" aria-hidden="true">
+    <video id="siteVideo" class="site-video" autoplay muted loop playsinline poster="images/slide1.jpg">
+      <!-- Put your video file here when ready -->
+      <source src="images/video.mp4" type="video/mp4" />
+    </video>
+    <div class="site-video-overlay"></div>
+  </div>
+
+  <div class="hearts-global" aria-hidden="true"></div>
+
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="topbar">
+    <button class="icon-btn" id="musicBtn" aria-label="Toggle music" title="Music">🔈</button>
+    <button class="pill" id="langBtn" aria-label="Toggle language">AR</button>
+  </div>
+
+  <main class="slider" id="slider" aria-label="Wedding invitation slides">
+
+    <section class="slide is-active intro-slide" data-bg="images/slide1.jpg">
+      <div class="gold-particles" aria-hidden="true"></div>
+      <div class="content intro-content">
+        <div class="intro-copy">
+          <div class="intro-kicker" data-reveal data-en="Wedding Invitation" data-ar="دعوة زفاف">Wedding Invitation</div>
+          <h1 class="intro-title" data-reveal data-en="You are invited to a beautiful beginning…" data-ar="مدعوون لبداية جميلة…">You are invited to a beautiful beginning…</h1>
+          <div class="intro-sub" data-reveal data-en="Tap the seal to open" data-ar="اضغطوا على الختم للفتح">Tap the seal to open</div>
+        </div>
+
+        <div class="envelope-stage" id="startBtn" role="button" tabindex="0" aria-label="Open invitation">
+          <div class="screen-envelope" id="sealCard">
+            <div class="env-base"></div>
+            <div class="env-paper">
+              <div class="paper-monogram" data-en="Elie &amp; Caren" data-ar="إيلي و كارن">Elie &amp; Caren</div>
+              <div class="paper-date" data-en="Saturday, June 27, 2026" data-ar="السبت، ٢٧ حزيران ٢٠٢٦">Saturday, June 27, 2026</div>
+            </div>
+            <div class="env-flap"><div class="flap-inner"></div></div>
+            <button class="wax-seal" id="sealOpenBtn" type="button" aria-label="Open seal"><span class="seal-script">Elie · Caren</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-bg="images/slide2.jpg">
+      <div class="content">
+        <div class="verse" data-reveal data-en="“So they are no longer two, but one flesh…”<br><span class='small'>Matthew 19:6</span>" data-ar="&quot;فَلَيْسَا بَعْدُ ٱثْنَيْنِ بَلْ جَسَدٌ وَاحِدٌ...&quot;<br><span class='small'>متى ١٩:٦</span>">“So they are no longer two, but one flesh…”<br><span class="small">Matthew 19:6</span></div>
+
+        <div class="invite-block premium-card">
+          <div class="lead" data-reveal data-en="With joyous hearts," data-ar="بِقُلُوبٍ مَمْلُوءَةٍ بِٱلفَرَح،">With joyous hearts,</div>
+<div class="parents" data-reveal 
+data-en="Jofre and Jossy Saadeh&nbsp;&nbsp;&nbsp;&nbsp;Daher and Samar El Asmar" 
+data-ar="جوفر و جوسي سعادة&nbsp;&nbsp;&nbsp;&nbsp;ضاهر و سمر الأسمر">
+Jofre and Jossy Saadeh&nbsp;&nbsp;&nbsp;&nbsp;Daher and Samar El Asmar
+</div>
+          <div class="lead2" data-reveal data-en="request the honor of your presence to celebrate the wedding of their son and daughter" data-ar="يتشرفان بدعوتكم لحضور حفل زفاف ابنهما وابنتهما">request the honor of your presence to celebrate the wedding of their son and daughter</div>
+          <div class="names-script shimmer" data-reveal data-en="Elie &amp; Caren" data-ar="إيلي و كارن">Elie <span class="amp">&amp;</span> Caren</div>
+          <div class="date" data-reveal data-en="Saturday, June 27, 2026" data-ar="السبت، ٢٧ حزيران ٢٠٢٦">Saturday, June 27, 2026</div>
+        </div>
+
+        <div class="hint" data-en="Swipe left" data-ar="اسحب لليسار">Swipe left <div class="arrow">←</div></div>
+      </div>
+    </section>
+
+    <section class="slide" data-bg="images/slide3.jpeg">
+      <div class="content">
+        <div class="title" data-reveal data-en="Wedding Ceremony" data-ar="الإكليل">Wedding Ceremony</div>
+        <div class="info premium-card" data-reveal>
+          <div class="row"><div class="icon">📅</div><div class="txt" data-en="June 27, 2026" data-ar="٢٧ حزيران ٢٠٢٦">June 27, 2026</div></div>
+          <div class="row"><div class="icon">🕕</div><div class="txt" data-en="6:00 pm" data-ar="٦:٠٠ مساء">6:00 pm</div></div>
+          <div class="row"><div class="icon">📍</div><div class="txt" data-en="Saint Georges Church, Bekfaya" data-ar="كنيسة مار جرجس، بكفيا">Saint Georges Church, Bekfaya</div></div>
+        </div>
+        <a class="cta" data-reveal target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/kq51roRV7UsMzKbs8"><span data-en="Location Map" data-ar="الخريطة">Location Map</span></a>
+        <div class="hint" data-en="Swipe left" data-ar="اسحب لليسار">Swipe left <div class="arrow">←</div></div>
+      </div>
+    </section>
+
+    <section class="slide" data-bg="images/slide4.jpeg">
+      <div class="content">
+        <div class="title" data-reveal data-en="Wedding Celebration" data-ar="الاحتفال">Wedding Celebration</div>
+        <div class="info premium-card" data-reveal>
+          <div class="row"><div class="icon">🕖</div><div class="txt" data-en="7:00 pm Welcome Drink" data-ar="٧:٠٠ مساء مشروب ترحيبي">7:00 pm Welcome Drink</div></div>
+          <div class="row"><div class="icon">🍽️</div><div class="txt" data-en="8:00 pm Dinner" data-ar="٨:٠٠ مساء العشاء">8:00 pm Dinner</div></div>
+          <div class="row"><div class="icon">📍</div><div class="txt" data-en="Aurelia, Bhersaf" data-ar="أوريليا، بحرصاف">Aurelia, Bekfaya (Bhersaf)</div></div>
+        </div>
+        <a class="cta" data-reveal target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/hfpEqj73owBJCMPR9"><span data-en="Location Map" data-ar="الخريطة">Location Map</span></a>
+        <div class="hint" data-en="Swipe left" data-ar="اسحب لليسار">Swipe left <div class="arrow">←</div></div>
+      </div>
+    </section>
+
+    <section class="slide" data-bg="images/slide8.jpg">
+      <div class="content center program-slide">
+        <div class="program-card premium-card" data-reveal>
+          <div class="program-title" data-en="Program of the Day" data-ar="برنامج اليوم">Program of the Day</div>
+          <div class="program-list">
+            <div class="program-row">
+              <div class="program-time" data-en="2:00 pm" data-ar="٢:٠٠ مساء">2:00 pm</div>
+              <div class="program-details">
+                <div class="program-place" data-en="At the Groom's House" data-ar="في منزل العريس">At the Groom's House</div>
+                <div class="program-location" data-en="Mansourieh" data-ar="المنصورية">Mansourieh</div>
+              </div>
+            </div>
+            <div class="program-row">
+              <div class="program-time" data-en="2:00 pm" data-ar="٢:٠٠ مساء">2:00 pm</div>
+              <div class="program-details">
+                <div class="program-place" data-en="Bride Reception" data-ar="استقبال العروس">Bride Reception</div>
+                <div class="program-location-line">
+                  <div class="program-location" data-en="The Ray Hotel, Ain Saadeh" data-ar="فندق ذا راي، عين سعادة">The Ray Hotel, Ain Saadeh</div>
+                  <a class="program-map-btn" href="https://maps.app.goo.gl/2anEecc3D1twg9Cs7" target="_blank" rel="noopener noreferrer"><span data-en="Location" data-ar="الموقع">Location</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="program-row">
+              <div class="program-time" data-en="6:00 pm" data-ar="٦:٠٠ مساء">6:00 pm</div>
+              <div class="program-details">
+                <div class="program-place" data-en="Wedding Ceremony" data-ar="الإكليل">Wedding Ceremony</div>
+                <div class="program-location" data-en="Saint Georges Church, Bekfaya" data-ar="كنيسة مار جرجس، بكفيا">Saint Georges Church, Bekfaya</div>
+              </div>
+            </div>
+            <div class="program-row">
+              <div class="program-time" data-en="7:00 pm" data-ar="٧:٠٠ مساء">7:00 pm</div>
+              <div class="program-details">
+                <div class="program-place" data-en="Welcoming Drink" data-ar="مشروب ترحيبي">Welcoming Drink</div>
+                <div class="program-location" data-en="Aurelia, Bekfaya" data-ar="أوريليا، بكفيا">Aurelia, Bekfaya</div>
+              </div>
+            </div>
+            <div class="program-row">
+              <div class="program-time" data-en="8:00 pm" data-ar="٨:٠٠ مساء">8:00 pm</div>
+              <div class="program-details">
+                <div class="program-place" data-en="Dinner" data-ar="العشاء">Dinner</div>
+                <div class="program-location" data-en="Aurelia, Bekfaya" data-ar="أوريليا، بكفيا">Aurelia, Bekfaya</div>
+              </div>
+            </div>
+          </div>
+          <div class="program-note" data-en="A night of love, joy, music, and singing till dawn." data-ar="ليلة من المحبة والفرح والموسيقى والغناء حتى الفجر.">A night of love, joy, music, and singing till dawn.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-bg="images/slide6.jpg">
+      <div class="gold-particles" aria-hidden="true"></div>
+      <div class="content center gift-slide">
+        <div class="gift-card premium-card" data-reveal>
+          <div class="gift-title" data-en="With Love &amp; Blessings" data-ar="بالمحبة والبركة">With Love &amp; Blessings</div>
+          <div class="gift-text" data-en="Your presence is truly enough for us.<br>If you would like to offer a gift,<br>please find our wedding registry below." data-ar="حضوركم ومشاركتكم لنا هذا اليوم يكفياننا سعادة.<br>وإن أحببتم تقديم هدية،<br>تجدون سجل الهدايا الخاص بزفافنا أدناه.">Your presence is truly enough for us.<br>If you would like to offer a gift,<br>please find our wedding registry below.</div>
+         <div class="bank-box">
+  <div><strong>Account Name:</strong> Elie &amp; Caren</div>
+  <div><strong>WHISH ACCOUNT:</strong> <span class="phone">20677045-03</span></div>
+</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-bg="images/slide5.jpg">
+      <div class="content rsvp-content">
+        <div class="title" data-reveal data-en="Be Our Guest" data-ar="كونوا ضيوفنا">Be Our Guest</div>
+        <div class="subtitle" data-reveal data-en="Please reply (RSVP)" data-ar="يرجى تأكيد الحضور (RSVP)">Please reply (RSVP)</div>
+
+        <div class="invite-personal-box premium-card" data-reveal>
+          <div class="invite-personal-label" data-en="Reserved For" data-ar="الدعوة باسم">Reserved For</div>
+          <div id="reservedName" class="invite-personal-name">Our dear guest</div>
+          <div id="invitationCount" class="invite-personal-count">Invitation for 1 guest</div>
+        </div>
+
+        <div class="card premium-card" data-reveal>
+          <div class="grid">
+            <input id="rsvpName" type="hidden" />
+            <div class="field">
+              <label data-en="Attending" data-ar="الحضور">Attending</label>
+              <select id="attending">
+                <option value="yes" data-en="Yes" data-ar="نعم">Yes</option>
+                <option value="no" data-en="No" data-ar="لا">No</option>
+              </select>
+            </div>
+            <div class="field">
+              <label data-en="Number of Guests" data-ar="عدد الضيوف">Number of Guests</label>
+              <input id="guests" type="number" min="0" max="10" value="1" />
+            </div>
+            <div class="field">
+              <label data-en="Phone (optional)" data-ar="الهاتف (اختياري)">Phone (optional)</label>
+              <input id="phone" type="tel" placeholder="+961 …" />
+            </div>
+            <div class="field full">
+              <label data-en="Note (optional)" data-ar="ملاحظة (اختياري)">Note (optional)</label>
+              <input id="note" type="text" placeholder="Anything we should know?" />
+            </div>
+          </div>
+          <button class="submit" id="submitBtn"><span data-en="RSVP" data-ar="تأكيد">RSVP</span></button>
+          <div class="contact">
+  <span data-en="Groom:" data-ar="العريس:">Groom:</span>
+  <span class="phone">70668247</span>
+
+  <span class="divider-dot">•</span>
+
+  <span data-en="Bride:" data-ar="العروس:">Bride:</span>
+  <span class="phone">78881989</span>
+</div>
+          <div class="status" id="status"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide final-slide" data-bg="images/slide11.png">
+      <div class="gold-particles" aria-hidden="true"></div>
+      <div class="content center final-clean luxury-final">
+        <div class="final-top-line" data-reveal data-en="With love, joy, and endless gratitude" data-ar="بكل محبة وفرح وامتنان لا ينتهي">With love, joy, and endless gratitude</div>
+        <div class="quote" data-reveal data-en="And so the adventure begins..." data-ar="وهكذا تبدأ الحكاية...">And so the adventure begins...</div>
+        <div class="names-final shimmer" data-reveal data-en="Elie &amp; Caren" data-ar="إيلي و كارن">Elie &amp; Caren</div>
+        <div class="date-final" data-reveal data-en="Saturday • June 27, 2026" data-ar="السبت • ٢٧ حزيران ٢٠٢٦">Saturday • June 27, 2026</div>
+        <div class="final-bottom-line" data-reveal data-en="We cannot wait to celebrate this unforgettable night with you." data-ar="لا يسعنا الانتظار لنحتفل معكم بهذه الليلة التي لا تُنسى.">We cannot wait to celebrate this unforgettable night with you.</div>
+        <div class="heart luxury-heart">♡</div>
+      </div>
+    </section>
+
+    <div class="dots" id="dots" aria-hidden="true"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
